@@ -1,0 +1,137 @@
+
+@import url(/font.css);
+.head_text
+{
+  margin-top: 0px;  
+  padding-top:35px;
+  margin-left:45px;
+  font-family: 'El Messiri',serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33%; 
+  color: #FFFFFF;
+}
+  
+.pool1
+{
+    width:392px ;
+    Height:290px;
+    margin-left:48px;
+    background-color: #018ABE;
+    border-radius: 10px;
+
+}
+
+.list_img1
+{
+    list-style-image: url(img/metka.svg);
+    margin-left:65px ;
+    padding-left: 0px;
+    margin-bottom: 21px;
+}
+
+.list_img2
+{
+    list-style-image: url(img/metro.svg);
+    margin-left:65px ;
+    padding-left: 0px;
+    margin-bottom: 21px;
+}
+
+.list_img3
+{
+    list-style-image: url(img/malendar.svg);
+    margin-left:65px ;
+    padding-left: 0px;
+    margin-bottom:0px;
+}
+
+.list_text1
+{
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 19px; 
+    color: #FFFFFF;
+    letter-spacing:2px; 
+    padding-left: 20px;
+}
+
+.list_text2
+{
+  font-family: 'Proxima Nova Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 19px; 
+  color: #FFFFFF;
+  letter-spacing:2px; 
+  padding-left: 20px;
+}
+
+.list_text3
+{
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 19px; 
+    color: #FFFFFF;
+    letter-spacing:2px; 
+    padding-left: 20px;
+    margin-bottom:0px;
+}
+
+.button
+{
+    width:155px;
+    height:36px;
+    margin-top:30px;
+    margin-left:42px;
+    padding:0px;
+    border: 0px;
+    border-radius: 3px;
+    color: #018ABE;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.pool2
+{ 
+    margin-top: 24px;
+    width:392px ;
+    Height:290px;
+    margin-left: 48px;
+    background-color: #018ABE;
+    border-radius: 10px;
+}
+
+.image_map
+{
+  margin-left: 312px;
+}
+
+.image_Vector1
+{
+ margin: left 330px;
+
+}
+
+.flex_row
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flex_column
+{
+    display: flex;
+    flex-direction: column;
+
+}

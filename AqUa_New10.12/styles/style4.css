@@ -1,0 +1,274 @@
+
+.root{
+
+
+width: 1076px;
+height: 614px;
+margin: 150px auto 150px auto;
+
+  }
+  
+  .header__price{
+    margin-left: auto;
+    margin-right: auto;
+width: 518px;
+height: 59px;
+display: flex;
+flex-direction: row;
+ }
+.header__price__title{
+/* Стоимость сеансов */
+margin: 0 auto 0 auto;
+font-family: 'El Messiri';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.header__price__left{
+
+margin-top: 22px;
+
+width: 28px;
+height: 14px;
+background: #018ABE;
+border-radius: 0px 50px;
+
+}
+.header__price__right{
+
+margin-top: 22px;
+width: 28px;
+height: 14px;
+
+background: #018ABE;
+border-radius: 0px 50px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+.price{
+  display: flex;
+  flex-direction: row;
+}
+.price__sert{
+
+width: 526px;
+height: 455px;
+margin-top: 100px;
+margin-left: 134px;
+
+}
+
+.price__sert__text{
+  /* Подарочный сертификат */
+margin: 30px auto 0 auto ;
+font-family: 'El Messiri';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+
+text-align: center;
+color: #FFFFFF;
+}
+.price__sert__img{
+width: 526px;
+height: 396px;
+background: url(.jpg), url(image.png);
+border-radius: 10px;
+
+}
+.price__list{
+margin-top: 203px;
+width: 416px;
+height: 250px;
+
+}
+.price__list__pos{
+  width: 416px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 31px;
+}
+.price__list__pos__pic{
+width: 18px;
+height: 9px;
+background: #018ABE;
+border-radius: 0px 50px;
+margin: 8px 20px 8px 0px;
+}
+.price__list__pos__cat{
+margin: 0;
+width: 268px;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+
+color: #FFFFFF;
+}
+.price__list__pos__pr{
+margin-left: 23px;
+margin-top: 0;
+width: 87px;
+font-family: 'El Messiri';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+
+text-align: right;
+color: #FFFFFF;
+}
+@media (max-width: 1298px){
+  .root{
+    width: 95%;
+
+      }
+  .header__price{
+    max-width: 60%;
+  }
+  .header__price__title{
+    font-size: 40px;
+    }
+  .price{
+    max-width: 100%;
+  }
+  .price__sert__text{
+  
+  font-size: 19px;
+  }
+  .price__sert{
+
+    max-width: 49%;
+    
+    
+    margin-left: 10%;
+    
+    }
+  .price__sert__img{
+    width: 476px;
+    height: 346px;
+    
+    }
+    .price__list{
+      width: 39%;
+      }
+      .price__list__pos{
+        width: 100%;
+        }
+    .price__list__pos__cat{
+      width: 64%;
+      font-size: 16px;
+      }
+      .price__list__pos__pr{
+      margin-left: 5%;
+      width: 20%;
+      
+      font-size: 16px;
+      
+      }
+}
+@media (max-width: 920px){
+  .root{
+    height: 914px;
+   
+      }
+      .header__price__title{
+        font-size: 34px;
+        }
+  .price{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .price__sert__text{
+    
+    font-size: 19px;
+    }
+    .price__sert{
+  
+      max-width: 90%;
+      
+      
+      margin-left: 0;
+      
+      }
+    .price__sert__img{
+      width: 476px;
+      height: 346px;
+      
+      }
+      .price__list{
+        width: 90%;
+        }
+        .price__list__pos{
+          width: 100%;
+          }
+      .price__list__pos__cat{
+        width: 64%;
+        font-size: 16px;
+        }
+        .price__list__pos__pr{
+        margin-left: 5%;
+        width: 20%;
+        
+        font-size: 16px;
+        
+        }
+}
+@media (max-width: 720px){
+        .header__price__title{
+        font-size: 28px;
+        }
+  
+    .price__sert__text{
+    
+    font-size: 17px;
+    }
+    
+    .price__sert__img{
+      width: 436px;
+      height: 306px;
+      
+      }
+
+      .price__list__pos__cat{
+        
+        font-size: 14px;
+        }
+        .price__list__pos__pr{
+        
+        font-size: 14px;
+        
+        }
+}
+@media (max-width: 480px){
+  .header__price__title{
+  font-size: 20px;
+  }
+
+.price__sert__text{
+
+font-size: 12px;
+}
+
+.price__sert__img{
+width: 336px;
+height: 206px;
+
+}
+
+.price__list__pos__cat{
+  
+  font-size: 10px;
+  }
+  .price__list__pos__pr{
+  
+  font-size: 10px;
+  
+  }
+}

@@ -1,0 +1,103 @@
+
+  body{
+    
+    background-color: #162831;
+    color:white;
+  }
+  
+  .header{
+   
+    position: absolute;
+width: 1298px;
+height: 60px;
+left: 312px;
+top: 30px;
+    
+    font-size: 14px;
+    outline: red 1px dashed;
+  }
+
+
+.head{
+  display: flex;
+
+
+padding: 0px;
+gap: 50px;
+
+position: absolute;
+width: 800px;
+height: 19px;
+left: 586px;
+top: 51px;
+outline: red 1px dashed;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.head_glav{
+  margin: auto;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.head_seans{
+  font-size: 14px;
+margin: auto;
+font-family: 'Courier New', Courier, monospace;
+}
+.head_otz{
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.head_contakt{
+    margin: auto; 
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.head_novosti{
+  
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+
+ 
+}
+.head_obo{
+   margin: auto;
+  font-size: 14px;
+   
+
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+.head_blog{
+
+  font-size: 14px;
+    
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.zapis{
+
+margin-left: 100px;
+width: 150px;
+height: 30px;
+background-color: #018ABE;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 600;
+font-size: 13px;
+
+cursor: pointer;
+color: #FFFFFF;
+border-radius: 5px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+

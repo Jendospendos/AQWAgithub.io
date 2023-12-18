@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.cdnfonts.com/css/el-messiri" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/proxima-nova-condensed" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  <header class="header">
+    <img src="https://ritmstyle.netlify.app/images/logo.svg" alt="Лого компании."  class="header__logo">
+      <div class="header__head">
+          <h2 class="header__text">Главная</h2>
+          <h2 class="header__text">Сеансы </h2>
+          <h2 class="header__text">Отзывы</h2>
+          <h2 class="header__text">Контакты</h2>
+          <h2 class="header__text">Новости</h2>
+          <h2 class="header__text">Обо мне </h2>
+          <h2 class="header__text">Блог</h2>  
+      </div> 
+      <button href="#" class="open-popup" type="button">Записаться на сеанс
+    </button> 
+      
+      <div class="popup__bg"> 
+        <form class="popup">
+            <img src="/Images/png-transparent-sandals-church-クラフト粘着テープ-住宅借入金等特別控除-emoji-consumption-tax-residence-time-distribution-logo-consumption-aqua.png" class="close-popup">
+            <label>
+                <input type="text" name="name" id="label__text" class="label__text"   minlength="2" maxlength="20" required>
+                <div class="label__text">
+                    Ваше имя
+                   
+                <br> 
+                </div>
+            </label>
+            <label>
+                <input type="text" name="phone" id="phone" class="label__text"  pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required />
+                <div class="label__text">
+                    Ваш телефон
+                    <br> 
+                </div>
+            </label>
+            <label>
+                <textarea name="message"></textarea>
+                <div class="label__text">
+                    Ваше сообщение
+                </div>
+            </label>
+            
+            <button type="submit">Отправить</button>
+        </form>
+    </div>  
+  </header>
+  
+  <main>
+    <section class="first__screen">
+      <img src="https://sun9-66.userapi.com/impg/IuSQggj8ROSx7z8i9onhyTu4qA3odJAT7a2RbQ/fFVhEXRjHQI.jpg?size=1690x772&quality=96&sign=1f3a7330f32828aaa8a694bf6a9d1568&type=album" class="first__screen__image">
+    </section>    
+    <article class="seans">
+        <header class="seans__head">
+            <div class="head__picl">
+            </div>
+            <h2 class="head__text">
+                Сеансы RitmStyle
+            </h2>
+            <div class="head__picr">
+            </div>
+        </header>
+        <section class="seans__group">
+            <div class="A">
+                <img class="A__img" src="Picture/A.png">
+                <p class="A__text">
+                    Стандартный RitmStyle
+                </p>
+                <div class="A__rec">
+                </div>
+            </div>
+            <div class="B">
+                <img class="B__img" src="Picture/B.png">
+                <p class="B__text">
+                    RitmStyle для пар
+                </p>
+            </div>
+            <div class="B">
+                <img class="B__img" src="Picture/B.png">
+                <p class="B__text">
+                    RitmStyle для беременных
+                </p>
+            </div>
+            <div class="C">
+                <img class="C__img" src="Picture/B.png">
+                <p class="C__text">
+                    RitmStyle с полным погружением под воду
+                </p>
+            </div>
+            <div class="C">
+                <img class="C__img" src="Picture/B.png">
+                <p class="C__text">
+                    RitmStyle + красочная подводная фотосессия
+                </p>
+            </div>
+            
+        </section>
+    </article>
+  <!--<article class="article1">      
+    <header class="heead1" >
+        <div class="flex_item">
+            <img class="Rectangle14" src="img/Rectangle14.svg">
+        </div>
+        <div class="flex_item">
+            <h2 class="otzyv" >Отзывы</h2>
+        </div>
+        <div class="flex_item">
+            <img class="Rectangle15" src="img/Rectangle15.svg">
+        </div>
+    </header>
+    
+        <div class="flex_row"> 
+            <div class="otzyv1">
+                <div>
+                    <h3 class="head_text">Александра Дмитриева</h3>
+                    <div class="text_otz">
+                        <p class="main_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.
+                        </p>
+                        <p class="main_text">
+                            Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="otzyv2">
+                <div>
+                    <h3 class="head_text1">Кира Иванова</h3>
+                    <div class="text_otz1">
+                        <p class="main_text1">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.
+                        </p>
+                        <p class="main_text1">
+                            Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="otzyv3">
+                <div>
+                    <h3 class="head_text">Яна Жернова</h3>
+                    <div class="text_otz">
+                        <p class="main_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.
+                        </p>
+                        <p class="main_text">
+                            Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <footer>
+        <div>
+            <img class="controls" src="img/controls.svg">
+        </div>
+    </footer>
+</article>
+<article class="article2">
+    <header class="heead2" >
+        <div class="flex_item">
+            <img class="Rectangle14" src="img/Rectangle14.svg">
+        </div>
+        <div class="flex_item">
+            <h2 class="ob" >Об RitmStyle</h2>
+        </div>
+        <div class="flex_item">
+            <img class="Rectangle15" src="img/Rectangle15.svg">
+        </div>
+    </header>
+   
+        <div class="RitmStile_masage">
+            <div>
+                <h3 class="masage">RitmStyle массаж</h3>
+                <div class="text_masage">
+                    <div class="mmain_textt">
+                        <p class="main_textt">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed tellus eget mattis nibh quam. Eu ornare nunc, id est. Erat consectetur etiam a sit diam in imperdiet amet. Diam nisl, ipsum suscipit amet. Eleifend amet habitasse proin quis adipiscing.
+                        </p>
+                        <p class="main_textt">
+                            Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas dictumst quam. Felis amet diam, non augue massa. Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.
+                        </p>
+                    </div>
+                    <img class="swim" src="img/Rectangle24.svg">
+                </div>
+            </div>
+        </div>
+        <div class="RitmStile_gidroterapiya">
+            <div>
+                <h3 class="gidroterapiya">RitmStyle гидротерапия</h3>
+                <div class="text_otz1">
+                    <img class="swim" src="img/Rectangle25.svg">
+                    <div class="mmain_textt1">
+                        <p class="main_textt1">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu cras quis ac a non ut viverra turpis eget. Hendrerit quis pulvinar massa ipsum sem. Donec posuere nulla enim non neque etiam. Eros arcu, pulvinar penatibus luctus ridiculus sagittis vel nunc hac. Nisi, diam tincidunt dui viverra. Eget quis ultricies sem nunc risus senectus luctus ultricies. Enim feugiat pharetra pharetra et.
+                        </p>
+                        <p class="main_textt1">
+                            Pulvinar arcu at morbi posuere cursus. Fermentum est sit enim velit ornare molestie. Ipsum nisi id sed tempor elementum. Mi nunc eget pellentesque ipsum. Suspendisse risus a id vel massa tincidunt. Hendrerit blandit in augue vel mi quam magna egestas. Fringilla ac lacus viverra ullamcorper leo, enim vitae id aliquam. Magna sed tristique tellus enim, netus tempor at elit dui. Ullamcorper hendrerit feugiat libero tellus diam egestas dui tellus odio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article> -->
+        <div class="root">
+            <section class="header__price">
+              <div class="header__price__left"> </div>
+              <h2 class="header__price__title">Стоимость сеансов</h2>
+              <div class="header__price__right"> </div>
+            </section>
+            
+              <section class="price">
+                
+                <div class="price__list">
+                  <div class="price__list__pos">
+                    <div class="price__list__pos__pic"></div>
+                    <p class="price__list__pos__cat">RitmStyle с погружением</p>
+                    <p class="price__list__pos__pr">1000р.</p>
+                  </div>
+                  <div class="price__list__pos">
+                    <div class="price__list__pos__pic"></div>
+                    <p class="price__list__pos__cat">Абонемент на RitmStyle</p>
+                    <p class="price__list__pos__pr">5500р.</p>
+                  </div><div class="price__list__pos">
+                    <div class="price__list__pos__pic"></div>
+                    <p class="price__list__pos__cat">RitmStyle для пар</p>
+                    <p class="price__list__pos__pr">6000р.</p>
+                  </div><div class="price__list__pos">
+                    <div class="price__list__pos__pic"></div>
+                    <p class="price__list__pos__cat">RitmStyle для беременных</p>
+                    <p class="price__list__pos__pr">13500р.</p>
+                  </div><div class="price__list__pos">
+                    <div class="price__list__pos__pic"></div>
+                    <p class="price__list__pos__cat">RitmStyle +  фотосессия</p>
+                    <p class="price__list__pos__pr">11500р.</p>
+                  </div>
+                </div>
+                <div class="price__sert">
+                  <img class="price__sert__img" src="img/sert.png">
+                  <p class="price__sert__text">Подарочный сертификат</p>
+                </div>
+              </section>
+            
+          </div>
+    
+
+    
+  <!-- <div class="flex_row"> 
+      <div>
+          <img class="image_map" src="img/map.svg"> 
+          
+              
+      </div>
+      <div clas="flex_column">
+          <div class="pool1">
+              <div>
+                  <h3 class="head_text">Бассейн WorkClass</h3>
+                  <ul class="list_img1">
+                      <li class="list_text1">Невский 140</li> 
+                  </ul>
+                  <ul class="list_img2">
+                      <li class="list_text2">м. Спасская</li>
+                  </ul>
+                  <ul class="list_img3">
+                      <li class="list_text3">Запись по договоренности</li>
+                  </ul>
+                 <button class="button">Записаться на сеанс</button>
+              </div>   
+          </div>
+          <div class="pool2">
+              <div>
+                  <h3 class="head_text3">Бассейн "На Гороховой"</h3>
+                  <ul class="list_img1">
+                      <li class="list_text1">3 проезд Иванова</li> 
+                  </ul>
+                  <ul class="list_img2">
+                      <li class="list_text2">м. Крестовский остров</li>
+                  </ul>
+                  <ul class="list_img3">
+                      <li class="list_text3">Запись по договоренности</li>
+                  </ul>
+                 <button class="button">Записаться на сеанс</button>
+              </div>   
+          </div>
+      </div>
+  </div>-->
+  <div class="footer">
+    <p class="footer__text">© 2018-2022 RitmStyle  </p>
+ 
+  </div>
+</div>
+</main>
+<script src="/script.js"></script>
+</body>
+
+</html>

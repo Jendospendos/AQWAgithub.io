@@ -1,0 +1,15 @@
+@import url(/font.css);
+
+.footer__text {
+    
+    max-width: 1296px;
+    margin-left: 312px;
+    margin-top: 109px;
+    margin-bottom: 30px;
+    font-family: 'El Messiri';
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+/* © 2018-2022 RitmStyle */
+

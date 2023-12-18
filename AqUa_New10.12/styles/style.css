@@ -1,0 +1,151 @@
+@import "font.css";
+@import "ob_ritm.css";
+@import "otzyv.css";
+
+@import"/styles/style4.css";
+@import"/styles/style5.css";
+@import"/styles/style6.css";
+@import"/styles/window.css";
+@import"/styles/massage.css";
+
+  body{
+    
+    background-color: #162831;
+    color:white;
+    max-width: 1920px;
+    border: #018ABE 1px solid;
+  }
+  
+  .header{
+  margin: auto;
+  padding-top: 30px;
+  width: 1298px;
+  height: 60px; 
+  display: flex;
+  flex-direction: row;
+  font-family: 'Proxima Nova';
+  
+
+  }
+
+  .header__head{
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: auto;
+    margin-top: 21px;
+    width: 655px;
+    height: 19px;
+    gap: 50px;
+
+    cursor: pointer;
+   
+  }
+  
+  .header__logo{
+    
+    width: 60px; height:60px;
+  }
+
+  .header__text{
+    margin: auto ;
+    font-size: 14px;
+  
+  }
+
+
+  .open-popup{
+   margin-left: auto;
+   margin-top: 13px;
+    width: 155px;
+    height: 36px;
+    background-color: #018ABE;
+
+    font-weight: 600;
+    font-size: 13px;
+
+    cursor: pointer;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+   
+  }
+
+.first__screen{
+  width: 1296px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.first__screen__image{
+  width: 1296px;
+  height: 600px;
+}
+@media (max-width: 1298px){
+  .header{
+    max-width:90% ;}
+  .header__head{
+      gap: 5%;
+      max-width:60% ;
+    }
+  .first__screen{
+      width: 90%;
+      height: 90%;
+      margin-top: 5%;
+    }
+  .header__text{
+      font-size: 13px;
+    }
+  .header__zapis{
+      width: 155px;
+      height: 36px;
+      font-size: 13px;
+      
+    }
+  }
+
+
+@media (max-width: 910px){
+    .header__head{
+        gap: 4%;
+      }
+    .header__text{
+        font-size: 11px;
+      }
+    .header__zapis{
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+        
+      }
+    }
+
+    @media (max-width: 720px){
+      .header__head{
+          gap: 3%;
+        }
+      .header__text{
+          font-size: 9px;
+        }
+      .header__zapis{
+          width: 100px;
+          height: 30px;
+          font-size: 9px;
+          
+        }
+      }
+      @media (max-width: 480px){
+        .header__head{
+            gap: 1%;
+          }
+        .header__text{
+            font-size: 7px;
+          }
+        .header__zapis{
+            width: 80px;
+            height: 25px;
+            font-size: 7px;
+            
+          }
+        }

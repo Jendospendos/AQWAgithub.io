@@ -1,0 +1,148 @@
+@import url(/font.css);
+.heead1
+{
+    outline: 1px #b51f1f dashed;
+    margin-top: 0px;
+    padding-left: 750px;
+    display: flex;
+    margin-bottom: 0;
+}
+.Rectangle14 
+{
+    outline: 1px #b51f1f dashed;
+    margin-right: 45px;
+    margin-top: 58px ;
+    /* accent  */
+    background: #018ABE;
+    border-radius: 0px 50px;
+}
+.Rectangle15 
+{
+    margin-top: 58px ;
+    margin-left: 45px;
+    outline: 1px #b51f1f dashed;
+    position: relative;
+    /* accent  */
+    background: #018ABE;
+    border-radius: 0px 50px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.otzyv
+{
+    position: relative;
+    outline: red 1px dashed;
+    /* heading/42b */
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    /* identical to box height, or 59px */
+    text-align: center;
+    /* white */
+    color: #FFFFFF;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*main*/
+.otzyv1
+{
+    margin-top: 24px;
+    width:500px ;
+    Height:276px;
+    margin-left:2px;
+    background-color: #018ABE;
+    border-radius: 10px;
+
+}
+
+.otzyv2
+{ 
+    margin-top: 24px;
+    width:636px ;
+    Height:350px;
+    margin-left: 48px;
+    background-color: #018ABE;
+    border-radius: 10px;
+}
+
+.otzyv3
+{
+    margin-top: 24px;
+    width:500px ;
+    Height:276px;
+    margin-left: 48px;
+    background-color: #018ABE;
+    border-radius: 10px;
+}
+
+.flex_row
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.head_text
+{
+    outline: red 1px dashed;
+    margin: 40px 45px;
+    margin-bottom: 0px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.head_text1
+{
+    outline: red 1px dashed;
+    margin: 40px 45px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.main_text
+{
+    outline: red 1px dashed;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+}
+.main_text1
+{
+    outline: red 1px dashed;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+}
+.text_otz
+{
+    outline: red 1px dashed;
+    margin: 40px 45px;
+}
+.text_otz1
+{
+    outline: red 1px dashed;
+    margin: 40px 45px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*footer*/
+.controls
+{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-left: 800px;
+}

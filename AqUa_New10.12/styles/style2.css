@@ -1,0 +1,25 @@
+@import "otzyv.css";
+@import "ob_ritm.css";
+@import url(/font.css);
+body
+{
+    background-color: #162831;
+}
+
+.article1
+{
+    
+    margin: 0px 92px;
+    width: 1736px;
+    height: 585px;
+    outline: 1px #33d613 dashed;
+    
+}
+
+.article2
+{
+    margin: 0px 422px;
+    width: 1076px;
+    height: 1024px;
+    outline: 1px #c316a0 dashed;
+}

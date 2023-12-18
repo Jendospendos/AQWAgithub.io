@@ -1,0 +1,105 @@
+@import url(/font.css);
+.heead2
+{
+    outline: 1px #1fb53f dashed;
+    margin-top: 0px;
+    padding-left: 350px;
+    display: flex;
+    margin-bottom: 0;
+}
+.Rectangle14 
+{
+    outline: 1px #b51f1f dashed;
+    margin-top: 58px ;
+    margin-left: 45px;
+    /* accent  */
+    background: #018ABE;
+    border-radius: 0px 50px;
+}
+.Rectangle15 
+{
+    margin-top: 58px ;
+    margin-left: 45px;
+    outline: 1px #b51f1f dashed;
+    position: relative;
+    /* accent  */
+    background: #018ABE;
+    border-radius: 0px 50px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.ob
+{
+    position: relative;
+    outline: red 1px dashed;
+    /* heading/42b */
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    /* identical to box height, or 59px */
+    text-align: center;
+    /* white */
+    color: #FFFFFF;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+/*main*/
+.masage
+{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.main_textt
+{
+    display: flex;
+    flex-direction: column;
+}
+.main_textt1
+{
+    display: flex;
+    flex-direction: column;
+}
+.main_textt
+{
+    width: 466px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    
+}
+.main_textt1
+{
+    margin-left: 10px;
+    width: 466px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    
+}
+.swim
+{
+    margin-left: 84px;
+    width: 526px;
+    height: 365px;
+}
+.text_masage
+{
+    display: flex;
+    flex-direction: row;
+}
+.text_otz1
+{
+    display: flex;
+    flex-direction: row;
+}
